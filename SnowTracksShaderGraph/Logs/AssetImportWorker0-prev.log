@@ -1,0 +1,624 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.3f1 (8ff31bc5bf5b) revision 9433883'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.746; Version 2004; 64bit' Language: 'en' Physical Memory: 16316 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Projects/Repos/Snow-Tracks-ShaderGraph-Unity-2019.1/SnowTracksShaderGraph
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52035
+Successfully changed project path to: D:/Projects/Repos/Snow-Tracks-ShaderGraph-Unity-2019.1/SnowTracksShaderGraph
+D:/Projects/Repos/Snow-Tracks-ShaderGraph-Unity-2019.1/SnowTracksShaderGraph
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 100.54 ms, found 19 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/Repos/Snow-Tracks-ShaderGraph-Unity-2019.1/SnowTracksShaderGraph/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) RX 480 Graphics (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   27.20.12029.1000
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002429 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 86.87 ms, found 19 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 96.59 ms, found 19 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.586 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 19 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4584 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.6 MB.
+System memory in use after: 190.7 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 4995.
+Total: 3.346900 ms (FindLiveObjects: 0.504100 ms CreateObjectMapping: 0.154400 ms MarkObjects: 2.551000 ms  DeleteObjects: 0.135600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/ForwardRenderer.asset
+  artifactKey: Guid(1ea43f432fff9fd45a0724a38a87663d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ForwardRenderer.asset using Guid(1ea43f432fff9fd45a0724a38a87663d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fd3a1b5b48aab471d3bfe2e10598da') in 0.038853 seconds
+  Import took 0.045634 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009110 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 105.43 ms, found 20 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Cancelling DisplayDialog: Burst Package Update Detected The version of Burst used by your project has changed. Please restart the Editor to continue.
+This should not be called in batch mode.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:DisplayDialog (string,string,string)
+Unity.Burst.Editor.BurstLoader:OnVersionChangeDetected () (at Library/PackageCache/com.unity.burst@1.4.1/Editor/BurstLoader.cs:87)
+Unity.Burst.Editor.BurstLoader:VersionUpdateCheck () (at Library/PackageCache/com.unity.burst@1.4.1/Editor/BurstLoader.cs:61)
+Unity.Burst.Editor.BurstLoader:.cctor () (at Library/PackageCache/com.unity.burst@1.4.1/Editor/BurstLoader.cs:144)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Unity.Entities.TypeManager:InitializeBurst () (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/Types/TypeManager.cs:416)
+Unity.Entities.TypeManager:Initialize () (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/Types/TypeManager.cs:436)
+Unity.Entities.AttachToEntityClonerInjection:Initialize () (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/Injection/CompanionGameObject.cs:28)
+Unity.Entities.AttachToEntityClonerInjection:.cctor () (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/Injection/CompanionGameObject.cs:22)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.burst@1.4.1/Editor/BurstLoader.cs line 87]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Unity.Burst.Editor.BurstLoader' threw an exception. ---> System.InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <9577ac7a62ef43179789031239ba8798>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at Unity.Entities.TypeManager.InitializeBurst () [0x00044] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Types\TypeManager.cs:416 
+  at Unity.Entities.TypeManager.Initialize () [0x0001a] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Types\TypeManager.cs:436 
+  at Unity.Entities.AttachToEntityClonerInjection.Initialize () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:28 
+  at Unity.Entities.AttachToEntityClonerInjection..cctor () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+System.InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.672 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 20 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5617 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.2 MB.
+System memory in use after: 225.6 MB.
+
+Unloading 237 unused Assets to reduce memory usage. Loaded Objects now: 6178.
+Total: 4.909800 ms (FindLiveObjects: 0.715400 ms CreateObjectMapping: 0.171000 ms MarkObjects: 3.784900 ms  DeleteObjects: 0.237300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009113 seconds.
+Begin MonoManager ReloadAssembly
+InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+Rethrow as TypeInitializationException: The type initializer for 'Unity.Burst.Editor.BurstLoader' threw an exception.
+  at (wrapper delegate-invoke) <Module>.invoke_void_object_EventArgs(object,System.EventArgs)
+  at System.AppDomain.DoDomainUnload () [0x00008] in <9577ac7a62ef43179789031239ba8798>:0 
+
+(Filename: Library/PackageCache/com.unity.burst@1.4.1/Runtime/BurstCompiler.cs Line: 227)
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 20 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Unity.Burst.Editor.BurstLoader' threw an exception. ---> System.InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <9577ac7a62ef43179789031239ba8798>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at Unity.Entities.TypeManager.InitializeBurst () [0x00044] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Types\TypeManager.cs:416 
+  at Unity.Entities.TypeManager.Initialize () [0x0001a] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Types\TypeManager.cs:436 
+  at Unity.Entities.AttachToEntityClonerInjection.Initialize () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:28 
+  at Unity.Entities.AttachToEntityClonerInjection..cctor () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+System.InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.531 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 20 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5618 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 224.5 MB.
+System memory in use after: 224.9 MB.
+
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 6183.
+Total: 6.510600 ms (FindLiveObjects: 1.190900 ms CreateObjectMapping: 0.766200 ms MarkObjects: 4.369700 ms  DeleteObjects: 0.180700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009248 seconds.
+Begin MonoManager ReloadAssembly
+InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+Rethrow as TypeInitializationException: The type initializer for 'Unity.Burst.Editor.BurstLoader' threw an exception.
+  at (wrapper delegate-invoke) <Module>.invoke_void_object_EventArgs(object,System.EventArgs)
+  at System.AppDomain.DoDomainUnload () [0x00008] in <9577ac7a62ef43179789031239ba8798>:0 
+
+(Filename: Library/PackageCache/com.unity.burst@1.4.1/Runtime/BurstCompiler.cs Line: 227)
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 20 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Unity.Burst.Editor.BurstLoader' threw an exception. ---> System.InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <9577ac7a62ef43179789031239ba8798>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at Unity.Entities.TypeManager.InitializeBurst () [0x00044] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Types\TypeManager.cs:416 
+  at Unity.Entities.TypeManager.Initialize () [0x0001a] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Types\TypeManager.cs:436 
+  at Unity.Entities.AttachToEntityClonerInjection.Initialize () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:28 
+  at Unity.Entities.AttachToEntityClonerInjection..cctor () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+System.InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.563 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 20 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.6 MB.
+System memory in use after: 225.9 MB.
+
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 6221.
+Total: 4.460100 ms (FindLiveObjects: 0.599200 ms CreateObjectMapping: 0.151400 ms MarkObjects: 3.531700 ms  DeleteObjects: 0.176500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009046 seconds.
+Begin MonoManager ReloadAssembly
+InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+Rethrow as TypeInitializationException: The type initializer for 'Unity.Burst.Editor.BurstLoader' threw an exception.
+  at (wrapper delegate-invoke) <Module>.invoke_void_object_EventArgs(object,System.EventArgs)
+  at System.AppDomain.DoDomainUnload () [0x00008] in <9577ac7a62ef43179789031239ba8798>:0 
+
+(Filename: Library/PackageCache/com.unity.burst@1.4.1/Runtime/BurstCompiler.cs Line: 227)
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 20 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Unity.Burst.Editor.BurstLoader' threw an exception. ---> System.InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <9577ac7a62ef43179789031239ba8798>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at Unity.Entities.TypeManager.InitializeBurst () [0x00044] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Types\TypeManager.cs:416 
+  at Unity.Entities.TypeManager.Initialize () [0x0001a] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Types\TypeManager.cs:436 
+  at Unity.Entities.AttachToEntityClonerInjection.Initialize () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:28 
+  at Unity.Entities.AttachToEntityClonerInjection..cctor () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+System.InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.575 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 20 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5645 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.7 MB.
+System memory in use after: 226.0 MB.
+
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 6225.
+Total: 4.587100 ms (FindLiveObjects: 0.596300 ms CreateObjectMapping: 0.153700 ms MarkObjects: 3.643800 ms  DeleteObjects: 0.191400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010487 seconds.
+Begin MonoManager ReloadAssembly
+InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+Rethrow as TypeInitializationException: The type initializer for 'Unity.Burst.Editor.BurstLoader' threw an exception.
+  at (wrapper delegate-invoke) <Module>.invoke_void_object_EventArgs(object,System.EventArgs)
+  at System.AppDomain.DoDomainUnload () [0x00008] in <9577ac7a62ef43179789031239ba8798>:0 
+
+(Filename: Library/PackageCache/com.unity.burst@1.4.1/Runtime/BurstCompiler.cs Line: 227)
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 20 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Unity.Burst.Editor.BurstLoader' threw an exception. ---> System.InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <9577ac7a62ef43179789031239ba8798>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at Unity.Entities.TypeManager.InitializeBurst () [0x00044] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Types\TypeManager.cs:416 
+  at Unity.Entities.TypeManager.Initialize () [0x0001a] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Types\TypeManager.cs:436 
+  at Unity.Entities.AttachToEntityClonerInjection.Initialize () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:28 
+  at Unity.Entities.AttachToEntityClonerInjection..cctor () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+System.InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.555 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 20 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.7 MB.
+System memory in use after: 226.1 MB.
+
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 6230.
+Total: 4.728600 ms (FindLiveObjects: 0.605600 ms CreateObjectMapping: 0.148600 ms MarkObjects: 3.785000 ms  DeleteObjects: 0.188100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009180 seconds.
+Begin MonoManager ReloadAssembly
+InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+Rethrow as TypeInitializationException: The type initializer for 'Unity.Burst.Editor.BurstLoader' threw an exception.
+  at (wrapper delegate-invoke) <Module>.invoke_void_object_EventArgs(object,System.EventArgs)
+  at System.AppDomain.DoDomainUnload () [0x00008] in <9577ac7a62ef43179789031239ba8798>:0 
+
+(Filename: Library/PackageCache/com.unity.burst@1.4.1/Runtime/BurstCompiler.cs Line: 227)
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 20 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Unity.Burst.Editor.BurstLoader' threw an exception. ---> System.InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <9577ac7a62ef43179789031239ba8798>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at Unity.Entities.TypeManager.InitializeBurst () [0x00044] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Types\TypeManager.cs:416 
+  at Unity.Entities.TypeManager.Initialize () [0x0001a] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Types\TypeManager.cs:436 
+  at Unity.Entities.AttachToEntityClonerInjection.Initialize () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:28 
+  at Unity.Entities.AttachToEntityClonerInjection..cctor () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+System.InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.554 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 20 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.8 MB.
+System memory in use after: 226.1 MB.
+
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 6234.
+Total: 4.484900 ms (FindLiveObjects: 0.587500 ms CreateObjectMapping: 0.151600 ms MarkObjects: 3.564700 ms  DeleteObjects: 0.180000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009209 seconds.
+Begin MonoManager ReloadAssembly
+InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+Rethrow as TypeInitializationException: The type initializer for 'Unity.Burst.Editor.BurstLoader' threw an exception.
+  at (wrapper delegate-invoke) <Module>.invoke_void_object_EventArgs(object,System.EventArgs)
+  at System.AppDomain.DoDomainUnload () [0x00008] in <9577ac7a62ef43179789031239ba8798>:0 
+
+(Filename: Library/PackageCache/com.unity.burst@1.4.1/Runtime/BurstCompiler.cs Line: 227)
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 20 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Unity.Burst.Editor.BurstLoader' threw an exception. ---> System.InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <9577ac7a62ef43179789031239ba8798>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at Unity.Entities.TypeManager.InitializeBurst () [0x00044] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Types\TypeManager.cs:416 
+  at Unity.Entities.TypeManager.Initialize () [0x0001a] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Types\TypeManager.cs:436 
+  at Unity.Entities.AttachToEntityClonerInjection.Initialize () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:28 
+  at Unity.Entities.AttachToEntityClonerInjection..cctor () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+System.InvalidOperationException: Burst failed to compile the function pointer `Int32 DoGetCSRTrampoline()`
+  at Unity.Burst.BurstCompiler.Compile[T] (T delegateObj, System.Boolean isFunctionPointer) [0x0014f] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:227 
+  at Unity.Burst.BurstCompiler.CompileFunctionPointer[T] (T delegateMethod) [0x00006] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\BurstCompiler.cs:119 
+  at Unity.Burst.Intrinsics.X86.CompileManagedCsrAccessors () [0x00000] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Runtime\Intrinsics\x86\Csr.cs:245 
+  at Unity.Burst.Editor.BurstLoader..cctor () [0x00161] in D:\Projects\Repos\Snow-Tracks-ShaderGraph-Unity-2019.1\SnowTracksShaderGraph\Library\PackageCache\com.unity.burst@1.4.1\Editor\BurstLoader.cs:204 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.554 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 20 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.6 MB.
+System memory in use after: 226.0 MB.
+
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 6238.
+Total: 4.380800 ms (FindLiveObjects: 0.593700 ms CreateObjectMapping: 0.157700 ms MarkObjects: 3.450400 ms  DeleteObjects: 0.177700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

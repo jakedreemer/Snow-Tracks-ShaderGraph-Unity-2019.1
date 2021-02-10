@@ -67,11 +67,16 @@ public class VehicleController : MonoBehaviour
 
     void Update()
     {
-        leftStickInput = Input.GetAxisRaw("LeftStickJoystick1");
-        leftTriggerInput = Input.GetAxisRaw("LeftTriggerJoystick1");
-        rightTriggerInput = Input.GetAxisRaw("RightTriggerJoystick1");
-        yButton = Input.GetButton("YButtonJoystick1");
-        aButton = Input.GetButton("AButtonJoystick1");
+        //leftStickInput = Input.GetAxisRaw("LeftStickJoystick1");
+        //leftTriggerInput = Input.GetAxisRaw("LeftTriggerJoystick1");
+        //rightTriggerInput = Input.GetAxisRaw("RightTriggerJoystick1");
+        //yButton = Input.GetButton("YButtonJoystick1");
+        //aButton = Input.GetButton("AButtonJoystick1");
+        leftStickInput = 1;
+        leftTriggerInput = 1;
+        rightTriggerInput = 1;
+        yButton = Input.GetKeyDown(KeyCode.UpArrow);
+        aButton = Input.GetKeyDown(KeyCode.LeftArrow);
     }
 
     void FixedUpdate()

@@ -69,11 +69,23 @@ Material:
         m_Texture: {fileID: 2800000, guid: a1e96f95cb0c8ba4bbffb77e6731848a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaClip: 0
     - _Blend: 0
-    - _BrushSize: 5
-    - _BrushStrength: 8
+    - _BrushSize: 20
+    - _BrushStrength: 10
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.5
@@ -94,12 +106,17 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Vector4_711cdb85f92049ada096fa9a291f03cc: {r: 0.09377679, g: 0.1358039, b: 0,
+        a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 1, g: 0, b: 0, a: 1}
-    - _Coordinate: {r: 0.74224997, g: 0.26012325, b: 0, a: 0}
+    - _Coordinate: {r: 0.49845833, g: 0.367771, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShaveCoord: {r: 0.49827915, g: 0.5488651, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _WheelCoord1: {r: 0.5897553, g: 0.7270542, b: 0, a: 0}
-    - _WheelCoord2: {r: 0.57262564, g: 0.7196462, b: 0, a: 0}
-    - _WheelCoord3: {r: 0.5993631, g: 0.7067558, b: 0, a: 0}
-    - _WheelCoord4: {r: 0.580836, g: 0.69874346, b: 0, a: 0}
+    - _WheelCoord1: {r: 0.44735262, g: 0.36191988, b: 0, a: 0}
+    - _WheelCoord2: {r: 0.46093255, g: 0.34911782, b: 0, a: 0}
+    - _WheelCoord3: {r: 0.4621949, g: 0.3787738, b: 0, a: 0}
+    - _WheelCoord4: {r: 0.4768827, g: 0.36492735, b: 0, a: 0}
+    - _WheelCoord5: {r: 0.382928, g: 0.32615772, b: 0, a: 0}
+  m_BuildTextureStacks: []
